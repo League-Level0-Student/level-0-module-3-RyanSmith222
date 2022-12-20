@@ -7,13 +7,12 @@ public class are_you_happy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
-
 	
 
-JOptionPane.showMessageDialog(null,"Please answer with only 'yes' or 'no.'");	
 
-String q1 = JOptionPane.showInputDialog(null, "Are you happy?");	
+JOptionPane.showMessageDialog(null,"Please answer with only yes or no.");	
+
+String q1 = JOptionPane.showInputDialog("Are you happy?");	
 
 if(q1.equals("yes")) {
 	JOptionPane.showMessageDialog(null, "Keep doing whatever you are doing.");
@@ -39,7 +38,7 @@ if(q1.equals("no")) {
 	
 
 	
-	
+}	
 	
 	
 	
