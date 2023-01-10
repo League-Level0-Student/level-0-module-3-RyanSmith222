@@ -7,7 +7,31 @@ void setup() {
 }
 
 void draw() {
+ 
+ int x=30;
+ int y=30;
   
+  
+for(int i = 0; i < 10;i++)   {
+ 
+   if(i % 2 == 0) {
+    fill(255,255,0);
+}
+else {
+fill(0,0,0);
+}
+  
+  ellipse(x,y,60,60);
+  x+=30;
+  y+=30;
+
+
+}
+
+}
+
+
+
 // First run the program and you should see a flower.  
   
   

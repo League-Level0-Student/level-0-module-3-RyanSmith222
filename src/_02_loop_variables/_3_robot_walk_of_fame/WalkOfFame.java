@@ -5,21 +5,22 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class WalkOfFame {
 	public static void main(String[] args) {
+		
 		Robot rob = new Robot();
 		rob.setSpeed(50);
-		int count = 0;
-		
-		for(int h = 0; h <= 5; h++) {
+		rob.penDown();
+		int xCoor = 50;
+		rob.hide();
+		for(int h = 0; h <= 10; h++) {
 			
-		count += 70;
-		rob.setX(count);
+	
+		rob.setX(xCoor + (h*30));
 		for(int i = 0; i <= 5; i++) {
-			rob.penDown();
 			rob.turn(144);
 			rob.move(30);
 		}
 		
-		
+	
 	}
 		
 		
