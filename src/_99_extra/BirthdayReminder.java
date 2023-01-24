@@ -7,11 +7,37 @@ public class BirthdayReminder {
 
 	public static void main(String[] args) {
 	
+		
+		
+		
+		
+		
+		
+		
+		
 		// 1. correct the birthdays for your family below
-		String momsBirthday = "January 24th";
-		String dadsBirthday = "June 9th";
-		String myBirthday = "April 16th";
+		String momsBirthday = "July 5th";
+		String dadsBirthday = "April 26";
+		String myBirthday = "September 17";
 
+		
+	String q1 =	JOptionPane.showInputDialog(null, "What birthday do you want?");
+	if(q1.equalsIgnoreCase("mom")) {
+		System.out.println(momsBirthday);
+	}
+
+	if(q1.equalsIgnoreCase("dad")) {
+		System.out.println(dadsBirthday);
+	}
+	
+	if(q1.equalsIgnoreCase("Ryan Smith")) {
+		System.out.println(myBirthday);
+	}
+		
+	else {
+		System.out.println("Sorry, I do not remember that person's birthday.");
+	}
+		
 		// 2. Find out which birthday the user wants and and store their response in a variable
 	
 		// 3. Print out what the user typed

@@ -25,6 +25,7 @@ fill(0,0,0);
   x+=30;
   y+=30;
 
+drawBeeFace(330,330);
 
 }
 
@@ -46,7 +47,7 @@ Use remainder to make the colors alternate between yellow and black
 Now put his head on using drawBeeFace(x,y)
 */
 
-}
+
 
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/
 
